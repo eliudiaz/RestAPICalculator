@@ -56,7 +56,7 @@ steps:
 - task: OctopusPush@4
   inputs:
     OctoConnectedServiceName: 'octopus deploy'
-    Space: 'Spaces-2'
+    Space: 'windows-deploy'
     Package: '$(Build.ArtifactStagingDirectory)/packages/*.zip'
     Replace: 'true'
 
