@@ -13,6 +13,7 @@ pool:
 variables:
   buildOutput: 'build'
   package.id: 'rest-api-calculator'
+  BRANCH: '$(Build.SourceBranchName)'
 
 steps:
 - task: Maven@3
