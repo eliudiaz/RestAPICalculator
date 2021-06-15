@@ -31,7 +31,8 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package -X -e -Dmaven.test.skip=true -P exec_bash'
+    goals: 'package'
+    #goals: 'package -X -e -Dmaven.test.skip=true -P exec_bash'
 
 - task: PowerShell@2
   inputs:
