@@ -1,5 +1,3 @@
-git config --global user.email "eliudiaz@gmail.com"
-git config --global user.name "eliudiaz"
 git fetch --all
 git checkout -b master origin/master
 mvn -B -e gitflow:release-start -Dmaven.test.skip=true
