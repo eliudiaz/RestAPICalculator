@@ -96,7 +96,6 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.16.0</version>
 				<configuration>
-					<argLine>-c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)"</argLine>
 					<fetchRemote>false</fetchRemote>
 					<mvnExecutable>mvn</mvnExecutable>
 					<pushRemote>true</pushRemote>
